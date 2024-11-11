@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Combinações</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Combinações</h1>
+    <form id="combinacoes-form">
+      <label for="n">Número total de elementos (N):</label>
+      <input type="number" id="n" required min="0">
+      
+      <label for="p">Elementos por combinação (P):</label>
+      <input type="number" id="p" required min="0">
+      
+      <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
